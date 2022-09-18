@@ -1,0 +1,11 @@
+--- config.go.orig	2022-09-18 09:18:48.098183214 +0900
++++ config.go	2022-09-17 21:31:12.828878457 +0900
+@@ -178,7 +178,7 @@
+ func GetUserConfig() (userConf *UserConfig) {
+ 	node := &NodeConfig{
+ 		EnablePeerDiscovery:     true,
+-		PeerList:                []string{},
++		PeerList:                []string{"/ip4/45.76.43.83/tcp/15005/p2p/QmU6Uo93bSgU7bA8bkbdNhSfbmp7S5XJEcSqgrdLzH6ksT"},
+ 		BindingIP:               "0.0.0.0",
+ 		LocalPort:               15005,
+ 		PublicPort:              15005,
